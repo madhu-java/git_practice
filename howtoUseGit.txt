@@ -2,4 +2,6 @@ git init--initialise empy project
 git status
 git add filename(adds for staging)
 git commit -m 'message to add'
-
+//to link with yout git-hub account
+git remote add origin https://github.com/madhu-java/git_practice.git
+git push -u origin master

@@ -7,4 +7,4 @@
 6.git remote add origin https://github.com/madhu-java/git_practice.git
 7.git push -u origin master
 //In Git, the commit you are currently on is known as the HEAD commit. In many cases, the most recently made commit is the HEAD commit.
-8.git show HEAD
+8.git show HEAD....shows latest commit!!!!!

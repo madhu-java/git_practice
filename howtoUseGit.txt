@@ -4,7 +4,24 @@
 4.git diff filename(shows the diffenrence b/n workingdirectory and staging files)
 5.git commit -m 'message to add'
 //to link local repository  with  git-hub repository
+
 6.git remote add origin https://github.com/madhu-java/git_practice.git
 7.git push -u origin master
+
 //In Git, the commit you are currently on is known as the HEAD commit. In many cases, the most recently made commit is the HEAD commit.
+
 8.git show HEAD....shows latest commit!!!!!
+
+What if you decide to change the some lines in the working directory, but then decide you wanted to discard that change?
+
+You could rewrite the line how it was originally, but what if you forgot the exact wording? The command
+
+9. git checkout HEAD filename
+
+will restore the file in your working directory to look exactly as it did when you last made a commit.
+
+//we can add more than one file to staging as follows
+10.git add filename_1 filename_2 filename_3
+
+//we can unstage a file from staging
+11.git reset HEAD filename

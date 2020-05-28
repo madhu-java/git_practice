@@ -1,7 +1,10 @@
-git init--initialise empy project
-git status
-git add filename(adds for staging)
-git commit -m 'message to add'
-//to link with yout git-hub account
-git remote add origin https://github.com/madhu-java/git_practice.git
-git push -u origin master
+1.git init--initialise empty project
+2.git status...gives the status 
+3.git add filename(adds the file to staging)
+4.git diff filename(shows the diffenrence b/n workingdirectory and staging files)
+5.git commit -m 'message to add'
+//to link local repository  with  git-hub repository
+6.git remote add origin https://github.com/madhu-java/git_practice.git
+7.git push -u origin master
+//In Git, the commit you are currently on is known as the HEAD commit. In many cases, the most recently made commit is the HEAD commit.
+8.git show HEAD

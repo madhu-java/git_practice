@@ -1,0 +1,5 @@
+git init--initialise empy project
+git status
+git add filename(adds for staging)
+git commit -m 'message to add'
+
